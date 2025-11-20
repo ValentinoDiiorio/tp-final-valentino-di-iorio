@@ -11,7 +11,6 @@ export default function App() {
     <div className="app-container">
       <header className="app-header">
         <h1>Cotizador de Seguros</h1>
-        <p>Proyecto final — React + Vite (entregable)</p>
       </header>
 
       <main>
@@ -22,9 +21,6 @@ export default function App() {
         <QuoteResults data={quoteData} />
       </main>
 
-      <footer className="app-footer">
-        <small>Hecho por: Tu nombre - Proyecto Final</small>
-      </footer>
     </div>
   )
 }
